@@ -7,6 +7,8 @@
     "stylelint.vscode-stylelint"
     // Additional Extensions Here
   ],
+  "features": {
+  },
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
   "postAttachCommand": "git pull --all",
 
@@ -14,7 +16,7 @@
   "portsAttributes": {
     "5173": {
       "label": "Vite port"
-      // "onAutoForward": "openBrowser"
+      // "onAutoForward": "openPreview"
     }
   },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
